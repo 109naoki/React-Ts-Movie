@@ -29,6 +29,7 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     }
     fetchData();
   }, [fetchUrl]);
+  console.log(movies);
 
   return (
     <div className="Row">
